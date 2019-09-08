@@ -1,16 +1,18 @@
 # Intersection
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/mystroken/canvas/issues)
-
 > :eyes: Get notified when a DOM element appear in and out of view.
+
+<br>
+
+Consider using the browser API, [Intersection Observer](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API), if you don't care about IE and if you just need a basic support of in / out of viewport notifications.
 
 <br>
 
 ## Installation
 
-```bash
-npm install @mystroken/intersection
-```
+- Via NPM — ```npm install @mystroken/intersection```
+
+- Manually — [https://unpkg.com/@mystroken/intersection/dist/intersection.min.js](https://unpkg.com/@mystroken/intersection/dist/intersection.min.js)
 
 <br>
 
@@ -18,8 +20,10 @@ npm install @mystroken/intersection
 
 Look at the source files for more information.
 
-###### Import
+###### Get started
 
 ```javascript
-import Intersection from '@mystroken/intersection';
+const options = {};
+const o = new Intersection(options);
+o.observe(document.querySelectorAll('.in-view'));
 ```
