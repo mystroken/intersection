@@ -1,0 +1,32 @@
+{
+  "name": "@mystroken/intersection",
+  "version": "0.0.1",
+  "description": "Get notified when a DOM element appear in and out of view.",
+  "main": "index.js",
+  "author": "Mystro Ken <mystroken@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "homepage": "https://github.com/mystroken/intersection#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystroken/intersection.git"
+  },
+  "files": [
+    "dist",
+    "src",
+    "index.js"
+  ],
+  "keywords": [
+    "in-view",
+    "scrolling",
+    "dom-element",
+    "javascript",
+    "library"
+  ],
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^5.1.1"
+  }
+}
